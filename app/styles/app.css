@@ -1,12 +1,16 @@
 
 body {
   padding-top: 70px;
+  font-family: 'Special Elite', cursive;
 }
 
 .main-pic {
   margin: auto;
-  width: 65%;
-  margin-left:110px;
+  width: 50%;
+  margin-left:200px;
+  margin-top: 50px;
+  border: 5px black solid;
+
 }
 
 li {
@@ -15,6 +19,27 @@ li {
 
 .api-info {
   font-weight: bold;
-  color: green;
+  color: red;
   font-size: medium;
+}
+
+h1 {
+  font-size: 48px;
+  text-align: center;
+}
+
+/*p {
+  text-align: center;
+}*/
+
+.btn-primary {
+  background-color: red;
+  border: none;
+
+}
+
+.btn-primary:hover {
+  background-color: black;
+  border: none;
+
 }
