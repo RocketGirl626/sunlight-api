@@ -11,7 +11,7 @@ Router.map(function() {
     this.resource('contact', {path:'contact/:zip'});
   });
   this.resource('bills', function() {
-    this.resource('bill', {path: 'bill/:date'});
+    this.resource('bill', {path: 'bill/:newDate/:newRange/:newChamber'});
   });
 });
 

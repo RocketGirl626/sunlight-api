@@ -1,5 +1,5 @@
 <ul>
   {{#each bill in model}}
-    <li><span class="api-info"> BILL ID:</span> {{bill.bill_id}} <br> <span class="api-info">BILL CONTEXT:</span>{{bill.context}}<br> <span class="api-info">BILL RANGE(DAY/WEEK): </span>{{bill.range}}</li>
+    <li><span class="api-info"> BILL ID:</span> {{bill.bill_id}} <br> <span class="api-info">BILL CONTEXT:</span>{{bill.context}}<br><span class="api-info">BILL RANGE(DAY/WEEK): </span>{{bill.range}} <br> <span class="api-info">CHAMBER: </span>{{bill.chamber}}<br><br></li>
   {{/each}}
 </ul>
