@@ -1,0 +1,8 @@
+<ul>
+  {{#each committee in model}}
+    <li><span class="api-info"> CHAMBER: </span>{{committee.chamber}} <br><span class="api-info">COMMITTEE: </span> {{committee.name}}<br> <span class="api-info">IS SUBCOMMITTEE?: </span>{{committee.subcommittee}}<br>{{#if committee.subcommittee}}
+    <span class="api-info">PARENT COMMITTEE:</span> {{committee.parent_committee_id}}
+      {{/if}}<br><br></li>
+
+  {{/each}}
+</ul>

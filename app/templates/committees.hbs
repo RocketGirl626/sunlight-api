@@ -1,0 +1,14 @@
+<h1>Committee Lookup</h1>
+
+<form>
+  <div class="form-group">
+    <label for="chamber">Chamber</label>
+    {{input value=chamber id="chamber" placeholder="enter house or senate"}}
+  </div>
+
+  <button class="btn btn-primary" {{action 'submit'}}>Submit</button>
+</form>
+
+<hr>
+
+{{outlet}}

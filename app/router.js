@@ -13,6 +13,9 @@ Router.map(function() {
   this.resource('bills', function() {
     this.resource('bill', {path: 'bill/:newDate/:newRange/:newChamber'});
   });
+  this.resource('committees', function() {
+    this.resource('committee', {path: 'committee/:newChamber'});
+  });
 });
 
 export default Router;
