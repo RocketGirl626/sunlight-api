@@ -1,0 +1,14 @@
+<h1>Bill Lookup</h1>
+
+<form>
+  <div class="form-group">
+    <label for="date">Date</label>
+    {{input value=date id="date" placeholder="enter yyyy-mm-dd"}}
+  </div>
+
+  <button class="btn btn-primary" {{action 'submit'}}>Submit</button>
+</form>
+
+<hr>
+
+{{outlet}}

@@ -1,8 +1,20 @@
-.legislator-name {
-  color: green;
-  font-weight: bold;
-  font-size: medium;
-}
+
 body {
   padding-top: 70px;
+}
+
+.main-pic {
+  margin: auto;
+  width: 65%;
+  margin-left:110px;
+}
+
+li {
+  list-style: none;
+}
+
+.api-info {
+  font-weight: bold;
+  color: green;
+  font-size: medium;
 }

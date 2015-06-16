@@ -6,8 +6,12 @@ var Router = Ember.Router.extend({
 });
 
 Router.map(function() {
-  this.resource('legislators', {path: '/'}, function(){
-    this.resource('contact', {path:'contact/:zip'})
+  this.resource('index', {path: '/'});
+  this.resource('legislators',  function(){
+    this.resource('contact', {path:'contact/:zip'});
+  });
+  this.resource('bills', function() {
+    this.resource('bill', {path: 'bill/:date'});
   });
 });
 
