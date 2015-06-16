@@ -43,3 +43,13 @@ h1 {
   border: none;
 
 }
+
+img.finger-pic {
+  width: 30%;
+  padding-top: 20px;
+}
+img.finger-pic-1 {
+  width: 30%;
+  padding-top: 20px;
+  margin-left: 35px;
+}
